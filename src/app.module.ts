@@ -6,7 +6,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://teste:JUUydhaGSAzZxF2P@cluster0.aee5l.mongodb.net/test'),
+    MongooseModule.forRoot('mongodb+srv://teste:JUUydhaGSAzZxF2P@cluster0.aee5l.mongodb.net/nestjscrud'),
     UsersModule,
   ],
   controllers: [AppController],
